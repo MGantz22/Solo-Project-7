@@ -30,7 +30,11 @@ namespace GantzBakery.Tests
       int orderBread = 4;
       Assert.AreEqual(15, Bread.BreadTotal(orderBread));
     }
-
-  
+    [TestMethod]
+    public void BreadClass_MathThirdFree5_Bread()
+    {
+      int orderBread = 5;
+      Assert.AreEqual(20, Bread.BreadTotal(orderBread));
+    }
   }
 }
