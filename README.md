@@ -1,56 +1,45 @@
-# _Gantz Bakery_
+# Gantz Bakery
 
 
 #### By: _Mitchell Gantz_
 
-#### _A code review project for basic API setup and calls._
+#### _A code review project for C# and MSTesting._
 
 ## Technologies Used
 
-- _JavaScript_
-- _HTML_
-- _CSS_
-- _Webpack_
-- _eslint_
-- _babel_
-- _API_
-
+- _C#_
+- _.NET 6_
+- _MSTesT_
 
 ## Description/Objectives
 
-- _A user should be able to enter an amount (in U.S. dollars), then specify another currency (such as the United Kingdom Pound Sterling), and submit a form. The user should then see the total amount they entered in converted currency._
-- _Users should be able to convert U.S. currency into at least 5 other types of currency_.
-- _If the API call results in an error (any message not a 200 OK), the application should return a notification to the user that states what the error is. (That means the error should show up in the DOM, not in the console.)_
-- _If the query response doesn't include that particular currency, the application should return a notification that states the currency in question doesn't exist. (Note: Even if you use a dropdown menu to specify currencies instead of a form field, you'll still need to add this functionality to your code.)_
+- _When the user runs the application, they should receive a prompt with a welcome message along with the cost for both Bread and Pastry._
+- _A user should be able to specify how many loaves of Bread and how many Pastrys they'd like._
+- _The application will return the total cost of the order._
+- _Gantz offers the following deals:_
+  - _Bread: Buy 2, get 1 free (every 3rd loaf of bread is free.). A single loaf costs $5, two loaves costs $10, and three loaves cost $10._
+  - _Pastry: Buy 3, get 1 free (every 4th Pastry is free.). A single Pastry costs $2, two costs $4, and three cost $6, four costs $6._
 
+## Setup/Installation Requirements 
 
+* clone this repo & navigate to the Bakery directory
+* open a command line prompt
+* build the project using $ `dotnet build`
+* execute code with $ `dotnet run`
 
-## Setup/Installation Requirements for using ExchangeRate-API
+## To Execute Tests
 
-- _Clone or download this repo to your local repository_
-- _Visit [Exchangerate-Api](https://www.exchangerate-api.com/)_
-- _Sign up for an account and free API key, and sign in._
-- _Once you are signed in, API key should be displayed on Dashboard, if not click on the API keys tab._
-- _Locate the API key called Active. You'll use this key in every request you make to the ExchangeRate-API._
-- _Add .env file to .gitignore, commit and push (before touching .env)._
-- _Touch .env and add API _ KEY=[YOUR API KEY], replacing brackets with your individual key and removing any spaces._
-- _Install all packages with $ `npm install`_
-- _Build the project using $ `npm run build`_
-- _Start a live server with $ `npm run start`_
+* clone the repo and/or navigate to the Bakery.Tests directory
+* open a command line prompt
+* enter $ `dotnet restore`
+* enter $ `dotnet test`
 
 ## Known Bugs
 
-- _Prints 404 error and not custom error message_
 - _If you find additional bugs not listed here, please email me at mgantz22@icloud.com with the subject_ **[_Repo Name_] Bug** _and include:_
   - BUG: _A brief description of the bug_
   - FIX: _Suggestion for solution (if you have one!)_
 - _If you'd like to be credited, please also include your_ **_github user profile link_**
-
-## Future implementations
-
-- _Backround images_
-- _Interactive site_
-- _Button sounds_
 
 ## License
 
