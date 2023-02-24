@@ -21,7 +21,7 @@ namespace GantzBakery.Models
       }
       else
       {
-        orderBread = 123;
+        orderBread = 123; //C# strongly typed and needs an else statment
       }
       return BreadSubtotal;
     }
