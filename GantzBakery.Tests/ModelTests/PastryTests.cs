@@ -49,6 +49,12 @@ namespace GantzBakery.Tests
       int orderPastry = 8;
       Assert.AreEqual(12, Pastry.PastryTotal(orderPastry));
     }
+    [TestMethod]
+    public void PastryClass_MathFourthFree8_Pastry()
+    {
+      int orderPastry = 9;
+      Assert.AreEqual(14, Pastry.PastryTotal(orderPastry));
+    }
 
   }
 }
