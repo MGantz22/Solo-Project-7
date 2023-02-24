@@ -15,6 +15,10 @@ namespace GantzBakery.Models
       {
         BreadSubtotal = (orderBread * CostPerBread - ((orderBread /3 ) * CostPerBread));
       }
+      else if (orderBread % 3 == 1)
+      {
+        BreadSubtotal = (orderBread * CostPerBread - ((orderBread /3 ) * CostPerBread));
+      }
       else
       {
         orderBread = 123;
