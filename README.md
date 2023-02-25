@@ -3,7 +3,7 @@
 
 #### By: _Mitchell Gantz_
 
-#### _A code review project for C# and MSTesting._
+#### _A code review project for C# and MSTesting (TDD)._
 
 ## Technologies Used
 
@@ -13,7 +13,7 @@
 
 ## Description/Objectives
 
-- _When the user runs the application, they should receive a prompt with a welcome message along with the cost for both Bread and Pastry._
+- _When the user runs the application, they should receive a prompt with a welcome message along with the cost for both Bread, Pastry and the sale for today._
 - _A user should be able to specify how many loaves of Bread and how many Pastrys they'd like._
 - _The application will return the total cost of the order._
 - _Gantz offers the following deals:_
@@ -22,14 +22,14 @@
 
 ## Setup/Installation Requirements 
 
-* clone this repo & navigate to the Bakery directory
+* clone this repo & navigate to the GantzBakery directory
 * open a command line prompt
 * build the project using $ `dotnet build`
 * execute code with $ `dotnet run`
 
 ## To Execute Tests
 
-* clone the repo and/or navigate to the Bakery.Tests directory
+* clone the repo and/or navigate to the GantzBakery.Tests directory
 * open a command line prompt
 * enter $ `dotnet restore`
 * enter $ `dotnet test`
